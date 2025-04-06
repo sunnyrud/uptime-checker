@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY uptime-checker.py .
 
-RUN pip install requests
+RUN pip install flask requests
 
 CMD ["python", "uptime-checker.py"]
