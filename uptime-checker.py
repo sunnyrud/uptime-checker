@@ -8,4 +8,4 @@ while True:
         print(f"{time.ctime()}: {url} is UP - Status {response.status_code}")
     except requests.exceptions.RequestException:
         print(f"{time.ctime()}: {url} is DOWN")
-    time.sleep(60)
+    time.sleep(5)
